@@ -19,6 +19,6 @@ maior idade. O programa deve encerrar quando for informado uma idade igual zero.
         }
     }
 
-    printf("A maior idade informada foi: %d\n", maior);
+    printf("\nA maior idade informada foi: %d\n", maior);
 
 }
