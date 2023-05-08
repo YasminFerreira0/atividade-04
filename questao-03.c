@@ -10,11 +10,11 @@ programa deve imprimir o valor 20, pois 2 + 4 + 6 + 8 = 20).*/
     printf("Informe um numero inteiro positivo: ");
     scanf("%d", &n);
 
-    if (n <=0){
+    if (n <=0){//verifica se o numero e positivo
         printf("\nNumero invalido!");
     }else{
-        for(i=1; i<=2*n; i++){
-            if(i%2 ==0){
+        for(i=1; i<=2*n; i++){//o ultimo numero da soma e o dobro do numero informado
+            if(i%2 ==0){//se for par realiza a soma 
                 soma = soma + i;
             }
             

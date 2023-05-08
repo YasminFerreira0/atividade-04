@@ -11,11 +11,11 @@ lista.*/
         printf("Informe a um numero ou 0 para sair: ");
         scanf("%d", &n);
 
-        if (n == 0) {
+        if (n == 0) {//se o valor informado for 0 ele sai da estrutura de repetição
             break;
         }
 
-        if (n % 5 == 0) {
+        if (n % 5 == 0) {//se multiplo de 5 realiza a soma
             soma = soma + n;
         }
     }

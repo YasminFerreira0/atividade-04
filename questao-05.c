@@ -16,7 +16,7 @@ calcule o número de ocorrências de cada face.*/
         printf("Informe o resultado do lancamento: ");
         scanf("%d", &resultado);
 
-        switch (resultado)
+        switch (resultado)//de acordo com o valor informado ele soma a quantidade de acorrencia de casa face 
         {
         case 1:
             face1++;
@@ -43,7 +43,7 @@ calcule o número de ocorrências de cada face.*/
         }
 
     }
-    printf("\nO numero de ocorrencia de cada face e: \n");
+    printf("\nO numero de ocorrencia de cada face e: \n");//apresenta a quantidade de acorrencias de cada face 
     printf("Face 1: %d", face1);
     printf("\nFace 2: %d", face2);
     printf("\nFace 3: %d", face3);
